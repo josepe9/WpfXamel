@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="AccentColor">DeepSkyBlue</Color>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+    <Style x:Key="estiloBoton">
+        <Setter Property="Button.FontSize" Value="18"/>
+        <Setter Property="Button.Background" Value="Blue"/>
+        <Setter Property="Button.Foreground" Value="White"/>
+        <Setter Property="Button.Height" Value="30"/>
+        <Setter Property="Button.Width" Value="160"/>
+        <Setter Property="Button.FontStretch" Value="Normal"/>
+    </Style>
+
+    <Style x:Key="estiloBotonexp">
+        <Setter Property="Button.FontSize" Value="12"/>
+        <Setter Property="Button.Background" Value="Green"/>
+        <Setter Property="Button.Foreground" Value="White"/>
+        <Setter Property="Button.Height" Value="20"/>
+        <Setter Property="Button.Width" Value="120"/>
+        <Setter Property="Button.Margin" Value="2"/>
+    </Style>
+
+</ResourceDictionary>
